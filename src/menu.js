@@ -25,10 +25,10 @@ function createMenuItem(name, desc) {
     image.src = `images/${name.toLowerCase()}.jpg`;
     image.alt = "Churros";
 
-    const itemName = document.createElement('h3');
+    const itemName = document.createElement('h2');
     itemName.textContent = name;
 
-    const description = document.createElement('p');
+    const description = document.createElement('div');
     description.textContent = desc;
 
     menuItem.appendChild(image);

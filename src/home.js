@@ -9,8 +9,8 @@ function createHome() {
 
     const para1 = document.createElement('p');
     const para2 = document.createElement('p');
-    para1.textContent = 'The best argentinian beach food you will ever taste';
-    para2.textContent = 'Good food, good life';
+    para1.textContent = 'The best argentinian beach food you will ever taste.';
+    para2.textContent = 'Good food, good life.';
 
     home.appendChild(para1);
     home.appendChild(para2);
